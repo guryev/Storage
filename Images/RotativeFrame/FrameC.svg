@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100%" height="100%">
+<g transform="translate(600,600)">
+  <text x="8" y="0" font-size="80" fill="black">O</text>
+  <g>
+    <circle r="400" cx="0" cy="0" fill="none" stroke="black"/>
+    <circle r="390" stroke-width="20" cx="0" cy="0" fill="none" stroke="black"
+      stroke-dasharray="1.9,201.20352,1,0" />
+    <circle r="5" cx="0" cy="0" fill="black" stroke="black" />
+    <g transform="translate(0,300),scale(0.5,1)">
+      <circle r="100" fill="white" stroke="black" />
+      <g>
+        <circle r="95" stroke-width="10" fill="none" stroke="black" 
+          stroke-dasharray="1.9,46.74188,1,0" />
+        <line x1="0" y1="-100" x2="0" y2="-80" stroke-width="5" stroke="black"/>
+
+        <g>
+          <line x1="0" y1="0" x2="0" y2="-90" stroke-width="3" stroke="black" />
+          <animateTransform attributeName="transform" type="rotate" 
+            from="0 0 0" to="360 0 0" dur="40s" repeatCount="indefinite" />
+        </g>
+
+        <animateTransform 
+          attributeName="transform" 
+          type="rotate"
+          keyTimes="0; 0.083333; 0.166667; 0.25; 0.333333; 0.416667; 0.5; 0.583333; 0.666667; 0.75; 0.833333; 0.916667; 1"
+          values="0 0 0; 49.1066 0 0; 73.8979 0 0; 90 0 0; 106.1021 0 0; 130.8934 0 0; 180 0 0; 229.1066 0 0; 253.8979 0 0; 270 0 0; 286.1021 0 0; 310.8934 0 0; 360 0 0;"
+          calcMode="spline"
+          keySplines="
+            0.333333 0.407277 0.666667 0.767270;
+            0.333333 0.460992 0.666667 0.751774;
+            0.333333 0.382177 0.666667 0.689481;
+            0.333333 0.310519 0.666667 0.617823;
+            0.333333 0.248226 0.666667 0.539008;
+            0.333333 0.232730 0.666667 0.592723;
+            0.333333 0.407277 0.666667 0.767270;
+            0.333333 0.460992 0.666667 0.751774;
+            0.333333 0.382177 0.666667 0.689481;
+            0.333333 0.310519 0.666667 0.617823;
+            0.333333 0.248226 0.666667 0.539008;
+            0.333333 0.232730 0.666667 0.592723"
+           dur="20s" 
+           repeatCount="indefinite" />
+
+      </g>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" 
+      from="0 0 0" to="-360 0 0" dur="20s" repeatCount="indefinite" />
+  </g>
+  <g transform="translate(0,500)">
+    <circle r="100" cx="0" cy="0" fill="black" stroke="black"/>
+    <circle r="95" stroke-width="10" cx="0" cy="0" fill="none" stroke="white"
+      stroke-dasharray="1.9,46.74188,1,0" />
+    <line x1="0" y1="-100" x2="0" y2="-80" stroke-width="5" stroke="white"/>
+    <g>
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="white" stroke-width="3" />
+      <animateTransform attributeName="transform" type="rotate" 
+        from="0 0 0" to="360 0 0" dur="20s" repeatCount="indefinite" />
+    </g>
+
+  </g>
+</g>
+</svg>
